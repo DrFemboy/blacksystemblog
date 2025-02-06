@@ -18,7 +18,7 @@ export default function HomePage() {
       <MatrixRain />
       <div className="container mx-auto px-4 py-8">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-4xl font-mono font-bold">Matrix Blog</h1>
+          <h1 className="text-4xl font-mono font-bold">BlackSystem's Blog</h1>
           {user?.isAdmin ? (
             <Link href="/admin">
               <Button variant="outline" className="border-green-500 text-green-500 hover:bg-green-500/20">
